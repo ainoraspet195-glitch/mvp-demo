@@ -1,12 +1,12 @@
+import WaitlistForm from "@/components/WaitlistForm";
+
 const REQUIRED_ENV = [
   "NEXT_PUBLIC_SUPABASE_URL",
   "NEXT_PUBLIC_SUPABASE_ANON_KEY",
 ] as const;
 
 function getMissingEnv(): string[] {
-  return REQUIRED_ENV.filter(
-    (key) => !process.env[key]
-  );
+  return REQUIRED_ENV.filter((key) => !process.env[key]);
 }
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
           <p className="text-sm text-red-600">
             Set these in <code>.env.local</code>:
           </p>
-          <ul className="mt-3 space-y-1 text-sm font-mono text-red-600">
+          <ul className="mt-3 space-y-1 font-mono text-sm text-red-600">
             {missing.map((key) => (
               <li key={key}>{key}</li>
             ))}
@@ -39,9 +39,9 @@ export default function Home() {
           Join the waitlist
         </h1>
         <p className="mb-6 text-sm text-zinc-500">
-          [Stage 1 placeholder — form coming in Stage 3]
+          Be first to know when we launch.
         </p>
-        <div className="h-10 rounded bg-zinc-100" />
+        <WaitlistForm />
       </div>
     </main>
   );

@@ -101,7 +101,7 @@ export default async function AdminDashboardPage({
             type="text"
             defaultValue={q}
             placeholder="Search email or name…"
-            className="w-full rounded border border-zinc-300 px-3 py-2 text-sm focus:border-zinc-500 focus:outline-none"
+            className="w-full rounded border border-zinc-300 px-3 py-2 text-sm text-zinc-900 placeholder-zinc-400 focus:border-zinc-500 focus:outline-none"
           />
           <button
             type="submit"

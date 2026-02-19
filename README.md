@@ -32,6 +32,6 @@ npm run dev
 
 ## Screenshots
 ![Landing](01-waitlist-admin/screenshots/01-landing.png)
-![Success](01-waitlist-admin\screenshots/02-succsess.png)
+![Success](01-waitlist-admin/screenshots/02-succsess.png)
 ![Admin login](01-waitlist-admin/screenshots/03-adminlogin.png)
 ![Admin dashboard](01-waitlist-admin/screenshots/04-admin-dashboard.png)

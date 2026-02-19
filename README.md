@@ -31,8 +31,7 @@ npm run dev
 4. Open http://localhost:3000
 
 ## Screenshots
-
-![Landing](screenshots/01-landing.png)
-![Success](screenshots/02-success.png)
-![Admin login](screenshots/03-adminlogin.png)
-![Admin dashboard](screenshots/04-admin-dashboard.png)
+![Landing](01-waitlist-admin/screenshots/01-landing.png)
+![Success](01-waitlist-admin/screenshots/02-success.png)
+![Admin login](01-waitlist-admin/screenshots/03-adminlogin.png)
+![Admin dashboard](01-waitlist-admin/screenshots/04-admin-dashboard.png)

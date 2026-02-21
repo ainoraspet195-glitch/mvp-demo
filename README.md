@@ -1,6 +1,6 @@
 # mvp-demo# Waitlist + Admin Dashboard (Demo)
 
-Live demo: https://waitlist-demoainoras.vercel.app/
+Live demo: https://mvp-demo.vercel.app
 
 ## What this is
 A small MVP demo: public waitlist landing page + admin dashboard to view/search/export signups.
